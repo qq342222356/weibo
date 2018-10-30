@@ -1,0 +1,100 @@
+.shell{
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("downloads.jpg");
+    overflow: hidden;
+}
+.shell_within{
+    width: 1150px;
+    height: 809px;
+    margin: 170px auto 0;
+}
+.shell_left{
+    width: 449px;
+    height: 665px; 
+    float: left;    
+}
+.shell_left img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.shell_right{
+    margin-top: 210px;
+    width: 610px;
+    margin-left: 88px;
+    float: left;
+    position: relative;
+}
+.shell_img{
+    float: left;
+    margin-bottom: 30px;
+}
+.shell_right img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.shell_con{
+    margin-left: 60px;
+    float: left;
+}
+.shell_con span:nth-child(1){
+    display: block;
+    font-size: 49px;
+    line-height: 56px;
+    color: #fff;
+    margin-top:30px;
+    text-align: center; 
+}
+.shell_con span:nth-child(2){
+    display: block;
+    font-size: 27px;
+    line-height: 1.6em;
+    letter-spacing: .24em;
+    color: #fff;
+}
+.shell_text{
+    width: 100%;
+    overflow: hidden;
+}
+.shell_text span{
+    display: block;
+    border: #fff 1px solid;
+    font-size: 18px;
+    color: #fff;    
+    line-height: 40px;
+    float: left;
+    border-radius: 5px;
+    width: 130px;
+}
+.shell_text span img{
+    width: 22px;
+    height: 22px;
+    margin-top: -5px;
+    margin-left: 10%;
+}
+.shell_text a:nth-child(2) span{
+    display: block;
+    margin-left: 140px;
+}
+.shell_text span:nth-child(3){
+    display: block;
+    margin-left: 30px;
+}
+.shell_hoer{
+    width: 128px;
+    height: 128px;
+    background: #000;
+    position: absolute;
+    top:102%;
+    left: 52.6%;
+    display: none;
+    z-index: 9999;
+}
+.shell_text span:nth-child(3):hover + .shell_hoer{
+    display: block;
+}
